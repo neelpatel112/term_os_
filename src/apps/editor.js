@@ -722,4 +722,4 @@ window.addEventListener('beforeunload', () => {
     textEditor.cleanup();
 });
 
-export default textEditor; 
+window.textEditor = textEditor;
