@@ -724,4 +724,4 @@ window.addEventListener('beforeunload', () => {
     terminalUI.cleanup();
 });
 
-export default terminalUI; 
+window.terminalUI = terminalUI;
