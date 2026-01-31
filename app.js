@@ -1,3 +1,5 @@
+console.log("=== TERMINALFIRST OS app.js LOADED ===");
+alert("app.js is loaded!");  // Remove this after testing
 // ===== TERMINALFIRST OS - MAIN ENTRY POINT =====
 console.log('🚀 TerminalFirst OS v1.0.0-alpha initializing...');
 
@@ -935,3 +937,6 @@ window.addEventListener('error', (e) => {
         type: 'error'
     });
 });  
+// MANUALLY START BOOT
+console.log("🚀 Manual boot starting...");
+setTimeout(bootOS, 1000);
