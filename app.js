@@ -926,8 +926,12 @@ window.launchApp = launchApp;
 window.showNotification = showNotification;
 
 // ===== START BOOT PROCESS =====
-document.addEventListener('DOMContentLoaded', bootOS);
 
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bootOS);
+} else {
+    bootOS(); // DOM already loaded
+}
 // Global error handler
 window.addEventListener('error', (e) => {
     console.error('OS Error:', e.error);
