@@ -637,4 +637,4 @@ window.addEventListener('beforeunload', () => {
     windowManager.cleanup();
 });
 
-export default windowManager; 
+window.windowManager = windowManager;
