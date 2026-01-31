@@ -220,25 +220,18 @@
     </audio>
 
     <!-- JavaScript -->
-    <script type="module" src="/src/app.js"></script>
-    <script type="module" src="/src/kernel/shell.js"></script>
-    <script type="module" src="/src/kernel/fs.js"></script>
-    <script type="module" src="/src/kernel/process.js"></script>
-    <script type="module" src="/src/ui/window.js"></script>
-    <script type="module" src="/src/ui/taskbar.js"></script>
-    <script type="module" src="/src/ui/terminal.js"></script>
-    <script type="module" src="/src/apps/editor.js"></script>
-    <script type="module" src="/src/apps/fileman.js"></script>
-    <script type="module" src="/src/apps/settings.js"></script>
-    <script type="module" src="/src/utils/storage.js"></script>
-    <script type="module" src="/src/utils/helpers.js"></script>
+<script src="./src/kernel/shell.js"></script>
+<script src="./src/kernel/fs.js"></script>
+<script src="./src/kernel/process.js"></script>
+<script src="./src/ui/window.js"></script>
+<script src="./src/ui/taskbar.js"></script>
+<script src="./src/ui/terminal.js"></script>
+<script src="./src/apps/editor.js"></script>
+<script src="./src/apps/fileman.js"></script>
+<script src="./src/apps/settings.js"></script>
+<script src="./src/utils/storage.js"></script>
+<script src="./src/utils/helpers.js"></script>
+<script src="./src/app.js"></script>
 
-    <!-- Fallback for older browsers -->
-    <script>
-        // Check for ES6 module support
-        if (!('noModule' in HTMLScriptElement.prototype)) {
-            document.write('<script src="/src/app-nomodule.js"><\/script>');
-        }
-    </script>
 </body>
 </html> 
