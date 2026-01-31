@@ -712,4 +712,4 @@ window.addEventListener('beforeunload', () => {
     taskbarManager.cleanup();
 });
 
-export default taskbarManager; 
+window.taskbarManager = taskbarManager;
