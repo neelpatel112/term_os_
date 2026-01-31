@@ -851,4 +851,4 @@ window.addEventListener('beforeunload', () => {
     settingsApp.cleanup();
 });
 
-export default settingsApp; 
+window.settingsApp = settingsApp;
