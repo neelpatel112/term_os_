@@ -3,23 +3,12 @@
   "version": "1.0.0-alpha",
   "description": "A terminal-first operating system as a web application",
   "type": "module",
-  "main": "src/app.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "vercel --prod"
+    "preview": "vite preview"
   },
-  "keywords": [
-    "os",
-    "terminal",
-    "webos",
-    "operating-system",
-    "web-app"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
   "devDependencies": {
     "vite": "^5.0.0"
   }
-} 
+}
