@@ -504,4 +504,4 @@ window.addEventListener('beforeunload', () => {
     ProcessMan.cleanup();
 });
 
-export default ProcessMan; 
+window.ProcessMan = ProcessMan;
