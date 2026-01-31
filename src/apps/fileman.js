@@ -1125,4 +1125,4 @@ window.addEventListener('beforeunload', () => {
     fileManager.cleanup();
 });
 
-export default fileManager; 
+window.fileManager = fileManager;
