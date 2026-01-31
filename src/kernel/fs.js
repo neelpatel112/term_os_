@@ -570,4 +570,4 @@ if (!window.OS) {
     }, 100);
 }
 
-export default VFS; 
+window.VFS = VFS;
