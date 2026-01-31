@@ -265,4 +265,4 @@ if (!window.OS) {
     }, 100);
 }
 
-export default TFSH; 
+window.TFSH = TFSH;
