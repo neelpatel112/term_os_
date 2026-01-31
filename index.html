@@ -232,6 +232,16 @@
 <script src="./src/utils/storage.js"></script>
 <script src="./src/utils/helpers.js"></script>
 <script src="./app.js"></script>
-
+<script>
+// Force boot after page loads
+setTimeout(function() {
+    if (typeof bootOS === 'function') {
+        console.log("Forcing boot...");
+        bootOS();
+    } else {
+        console.error("bootOS function not found!");
+    }
+}, 1000);
+</script>
 </body>
 </html>  
