@@ -616,4 +616,4 @@ window.addEventListener('beforeunload', () => {
     helpers.cleanup();
 });
 
-export default helpers; 
+window.helpers = window.h = helpers;
