@@ -1,14 +1,4 @@
 {
   "name": "terminal-first-os",
-  "version": "1.0.0-alpha",
-  "description": "A terminal-first operating system as a web application",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build || true",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^5.0.0"
-  }
+  "private": true
 }
