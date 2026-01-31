@@ -508,4 +508,4 @@ window.addEventListener('beforeunload', () => {
 // Periodically cleanup expired items (every 5 minutes)
 setInterval(() => storage.cleanup(), 5 * 60 * 1000);
 
-export default storage; 
+window.storage = storage;
